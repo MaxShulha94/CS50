@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Search</title>
+    <link rel="stylesheet" href="styles.css" id="ext_search">
+</head>
+<body>
+    <form action="https://www.google.com/search" method="GET">
+
+        <input type="text" id="all-words" name="as_q">
+        <input type="submit" value="Search words">
+
+
+        <input type="text" id="exact-phrase" name="as_epq">
+        <input type="submit" value="Search word">
+
+
+        <input type="text" id="any-words" name="as_oq">
+        <input type="submit" value="Search any word">
+
+
+        <input type="text" id="exclude-words" name="as_eq">
+        <input type="submit" value="Search none of words">
+
+
+    </form>
+    <div id="search_links">
+        <h2><a href="search_pic.html">Click here for searching images</a></h2>
+        <h2><a href="index.html">Click here for searching</a></h2>
+    </div>
+</body>
+</html>
